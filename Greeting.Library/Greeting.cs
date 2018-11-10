@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Greeting.Library
 {
@@ -22,17 +23,37 @@ namespace Greeting.Library
 //             "Hello, Amy and Charlotte. AND HELLO BRIAN!";
             
             var greeting = "Hello, ";
-            if (multipleNames.Length == 2)
-                greeting += multipleNames[0] + " and " + multipleNames[1] + ".";
-            if (multipleNames.Length > 2)
+            var upperCaseNames = new ArrayList();
+            var lowerCaseNames = new ArrayList();
+            for (int z = 0; z < multipleNames.Length; z++)
             {
-                for (int i = 0; i < multipleNames.Length - 1; i++)
+                if (multipleNames[z] == multipleNames[z].ToUpper())
                 {
-                    greeting += multipleNames[i] + ", ";
+                    upperCaseNames.Add(multipleNames[z]);
+                }
+                else
+                {
+                    lowerCaseNames.Add(multipleNames[z]);
+                }
+            }
+            
+            if (lowerCaseNames.Count == 2)
+                greeting += lowerCaseNames[0] + " and " + lowerCaseNames[1].ToString() + ".";
+            if (lowerCaseNames.Count > 2)
+            {
+                for (int i = 0; i < lowerCaseNames.Count -1; i++)
+                {
+                    greeting += lowerCaseNames[i].ToString() + ", ";
                 }
 
-                greeting += "and " + multipleNames[multipleNames.Length - 1] + ".";
+                greeting += "and " + lowerCaseNames[lowerCaseNames.Count -1] + ".";
             }
+
+            if (upperCaseNames.Count > 0)
+            {
+                greeting += " AND HELLO " + upperCaseNames[0] +"!";
+            }
+//            return lowerCaseNames[3].ToString();
             return greeting;
         }
 

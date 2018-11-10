@@ -11,12 +11,12 @@
 /Users/JuanCMontoya/Projects/RiderProjects/GreetingKata/Greeting.Library/bin/Debug/netcoreapp2.1/Greeting.Library.runtimeconfig.dev.json
 C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.dll
 C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.pdb
+C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.csprojAssemblyReference.cache
+C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.csproj.CoreCompileInputs.cache
+C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.AssemblyInfoInputs.cache
+C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.AssemblyInfo.cs
 C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/bin/Debug/netcoreapp2.1/Greeting.Library.deps.json
 C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/bin/Debug/netcoreapp2.1/Greeting.Library.runtimeconfig.json
 C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/bin/Debug/netcoreapp2.1/Greeting.Library.runtimeconfig.dev.json
 C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/bin/Debug/netcoreapp2.1/Greeting.Library.dll
 C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/bin/Debug/netcoreapp2.1/Greeting.Library.pdb
-C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.csprojAssemblyReference.cache
-C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.csproj.CoreCompileInputs.cache
-C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.AssemblyInfoInputs.cache
-C:/Users/joshb/floobits/share/JCarlos831/GreetingKata/Greeting.Library/obj/Debug/netcoreapp2.1/Greeting.Library.AssemblyInfo.cs
