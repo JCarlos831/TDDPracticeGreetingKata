@@ -65,5 +65,25 @@ namespace Greeting.Library.Tests
             
             Assert.AreEqual(expectedResult, output);
         }
+        
+        [Test]
+        public void GreetingWithMultipleNamesSplit()
+        {
+            string[] multipleNames = {"Bob", "Charlie, Dianne"};
+            var output = Greeting.Greet(multipleNames);
+            var expectedResult = "Hello, Bob, Charlie, and Dianne.";
+            
+            Assert.AreEqual(expectedResult, output);
+        }
+        
+        [Test] //
+        public void GreetingWithMultipleNamesSplitEscapeIntentionalComma()
+        {
+            string[] multipleNames = {"Bob", "\"Charlie, Dianne\""};
+            var output = Greeting.Greet(multipleNames);
+            var expectedResult = "Hello, Bob and Charlie, Dianne.";
+            
+            Assert.AreEqual(expectedResult, output);
+        }
     }
 }
